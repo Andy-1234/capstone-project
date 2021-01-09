@@ -1,19 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/logo-small-orange.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 
-
-
-
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
     
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body style="background-color:rgb(110, 110, 110);">
+
+<div style="background-color: black;color: #dd6600;" class="jumbotron">
+  <div class="container text-center">
+    <h1>UberPcs</h1>      
+    <p>Contact Us</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html"><img class="img-responsive"style="height:100%" src="images/logo-small-orange.png" alt=""></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="parts.html">store</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li class="active"><a href="contact.html">Contact us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href=""><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+<div style="text-align: center;" class="container">    
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="panel" style="color: #dd6600; background-color: rgb(71, 69, 69);">
+        <div class="panel-heading">Let us know what your problem is</div>
+        <div class="panel-body">
+          <p>
+              At UberPcs we pride ourselves with a great service so if you need help with anything that was not mentioned in our services that you need fixed or the service provided  was not to your liking please let us know and we will make sure to fix the problem. 
+          </p><br>
+
+   
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div><br>
+
+<div class="container text-center">    
+  <h3></h3><br>
+  <div class="row" style="background-color: rgb(71, 69, 69);">   
+      <div class="col-sm-6" > 
+      
+        <ul style="list-style: none;" >
+            <li><h3 style="color: #dd6600;">Where to contact us</h3></li>
+            <li></li>
+            <li><a href="" style="color: #ff7700;"> Facebook</a></li>
+            <li><a href="" style="color: #ff7700;"> Instagram</a></li>
+            <li><a href="" style="color: #ff7700;">Twitter</a></li>
+            
+            <li><a href="" style="color: #ff7700;">UberPcs@gmail.com</a></li>
+        <li ><a href=""style="color: #ff7700;"> 623-555-12890</a></li>
+        <li style="color: #ff7700;">or fell free to tell us what you need on the right we appreciate all feedback and love to know what our customers feel</li>
+        </ul>
+        
+      
+    </div>
+    <div class="col-sm-6">
+        <form action="">
+            <div class="form-group">
+                <label for="name" style="color:#dd6600 ;">Name</label>
+              <input placeholder="your name" type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email" style="color: #dd6600;">Email</label>
+              <input placeholder="Email Address" type="email" class="form-control" id="email">
+            </div>
+            <label for="user-response" style="color: #dd6600;">What problem can we fix you</label>
+            <textarea class="form-control" id="user-response" rows="3"></textarea>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form> 
+    </div>
+ 
+
+
+    </div>
+  </div>
+</div><br>
+
+
+
+<!-- Footer -->
+<footer style="background-color: rgb(71, 69, 69);color: #dd6600;" class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase"></h5>
+          <p> </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Social media</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">  Facebook</a>
+            </li>
+            <li>
+              <a href="#!">Twitter</a>
+            </li>
+            <li>
+              <a href="#!">Instagram</a>
+            </li>
+    
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Helped be made by</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.w3schools.com/">W3 schools</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/">stackoverflow</a>
+            </li>
+  
+         
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  <a href="index.html"><img src="images/logo-small-orange-text.png" alt=""></a>
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="index.html"> UberPcs.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
